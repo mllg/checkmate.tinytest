@@ -13,4 +13,3 @@ Imports:
     checkmate,
     tinytest
 RoxygenNote: 6.1.1
-Collate: 'makeExpectation.R' 'expectations.R' 'zzz.R'
