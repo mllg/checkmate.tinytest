@@ -13,3 +13,5 @@ Imports:
     checkmate,
     tinytest
 RoxygenNote: 6.1.1
+Remotes:
+    markvanderloo/tinytest/pkg
