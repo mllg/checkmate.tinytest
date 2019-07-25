@@ -1,0 +1,15 @@
+^src/.+\.o$
+^src/.+\.so$
+\.swp$
+^\.ignore$
+^\.editorconfig$
+^.travis.yml$
+^man-roxygen$
+^appveyor\.yml$
+^.*\.Rproj$
+^\.Rproj\.user$
+^inst/autogen
+^docs$
+^inst/benchmarks
+^revdep$
+^revdepcheck.R$

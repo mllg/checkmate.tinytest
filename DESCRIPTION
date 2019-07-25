@@ -1,0 +1,16 @@
+Package: checkmate.tinytest
+Title: Additional Expectations for 'tinytest'
+Version: 0.0.0.9000
+Authors@R: c( person("Michel", "Lang", NULL, "michellang@gmail.com",
+        role = c("cre", "aut"), comment = c(ORCID =
+        "0000-0001-9754-0393")) )
+Description: What the package does (one paragraph).
+License: BSD_3_clause + file LICENSE
+NeedsCompilation: no
+Encoding: UTF-8
+LazyData: true
+Imports:
+    checkmate,
+    tinytest
+RoxygenNote: 6.1.1
+Collate: 'makeExpectation.R' 'expectations.R' 'zzz.R'
