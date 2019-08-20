@@ -2,10 +2,13 @@
 # 2: name of function to call
 # 3: function arguments, as collapsed string
 template = '{
+    call = sys.call(sys.parent(1L))
     res = %2$s(%3$s)
 
-    tinytest::tinytest(
-      result = isTRUE(res),
+    if (isTRUE(res))
+      return(tinytest::tinytest(TRUE, call = call))
+
+    tinytest::tinytest(FALSE,
       call = sys.call(sys.parent(1)),
       diff = if (is.character(res)) res else "",
       short = %1$s

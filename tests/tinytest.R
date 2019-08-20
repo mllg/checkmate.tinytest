@@ -1,3 +1,3 @@
-if ( requireNamespace("tinytest", quietly = TRUE)) {
-  tinytest::run_test_file("checkmate.tinytest")
+if (requireNamespace("tinytest", quietly = TRUE)) {
+  tinytest::test_package("checkmate.tinytest")
 }
