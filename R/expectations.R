@@ -11,7 +11,7 @@ template = '{
     tinytest::tinytest(FALSE,
       call = sys.call(sys.parent(1)),
       diff = if (is.character(res)) res else "",
-      short = %1$s
+      short = "data"
     )
 }'
 
